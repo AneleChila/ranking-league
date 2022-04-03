@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc5b12d1-a684-461a-8f96-f3d280ed3ca6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27GvL2ODlEUKulytFIT7mcJmMRI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="span.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FileInputReaderTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.span.Main" />
+      <module name="ranking-league" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.span.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileInputReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ranking-league" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Reader" />
+      <option name="MAIN_CLASS_NAME" value="Reader.FileInputReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameResultProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ranking-league" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GameResultProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameResultProcessorTest.shouldThrowErrorOnIncorrectScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ranking-league" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GameResultProcessorTest" />
+      <option name="METHOD_NAME" value="shouldThrowErrorOnIncorrectScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FileInputReaderTest" />
+        <item itemvalue="JUnit.GameResultProcessorTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GameResultProcessorTest.shouldThrowErrorOnIncorrectScore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc5b12d1-a684-461a-8f96-f3d280ed3ca6" name="Default Changelist" comment="" />
+      <created>1648959177693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648959177693</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2125" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648979844409">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2125" y="167" key="#com.intellij.fileTypes.FileTypeChooser/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1648979844409" />
+    <state x="458" y="230" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1648959281048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="230" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1648959281048" />
+    <state x="372" y="379" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1648959307674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="372" y="379" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1648959307674" />
+    <state x="494" y="334" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1648959314922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="494" y="334" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1648959314922" />
+    <state x="2065" y="-180" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1648997972472">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="-180" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1648997972472" />
+    <state x="2289" y="67" width="558" height="734" key="#xdebugger.evaluate" timestamp="1649000131282">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2289" y="67" width="558" height="734" key="#xdebugger.evaluate/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000131282" />
+    <state width="1878" height="364" key="GridCell.Tab.0.bottom" timestamp="1649000179069">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.0.bottom/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179069" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/1440.-180.1920.1080/0.25.1440.875@1440.-180.1920.1080" timestamp="1648998323677" />
+    <state width="1878" height="364" key="GridCell.Tab.0.center" timestamp="1649000179063">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.0.center/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179063" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/1440.-180.1920.1080/0.25.1440.875@1440.-180.1920.1080" timestamp="1648998323659" />
+    <state width="1878" height="364" key="GridCell.Tab.0.left" timestamp="1649000179058">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.0.left/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179058" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/1440.-180.1920.1080/0.25.1440.875@1440.-180.1920.1080" timestamp="1648998323589" />
+    <state width="1878" height="364" key="GridCell.Tab.0.right" timestamp="1649000179067">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.0.right/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179067" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/1440.-180.1920.1080/0.25.1440.875@1440.-180.1920.1080" timestamp="1648998323675" />
+    <state width="1878" height="364" key="GridCell.Tab.1.bottom" timestamp="1649000179079">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.1.bottom/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179079" />
+    <state width="1878" height="364" key="GridCell.Tab.1.center" timestamp="1649000179074">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.1.center/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179073" />
+    <state width="1878" height="364" key="GridCell.Tab.1.left" timestamp="1649000179071">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.1.left/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179071" />
+    <state width="1878" height="364" key="GridCell.Tab.1.right" timestamp="1649000179077">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="364" key="GridCell.Tab.1.right/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1649000179077" />
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1648959722117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1648959722117" />
+    <state x="2065" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1648999689571">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="61" width="670" height="676" key="search.everywhere.popup/1440.-180.1920.1080/0.0.1440.900@1440.-180.1920.1080" timestamp="1648999689571" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/span/reader/FileInputReader.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/span/reader/FileInputReader.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Reader/FileInputReaderTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
