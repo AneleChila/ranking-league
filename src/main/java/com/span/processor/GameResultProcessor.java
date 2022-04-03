@@ -1,4 +1,4 @@
-package com.span.service;
+package com.span.processor;
 
 import com.span.model.LeagueTable;
 import com.span.model.Point;

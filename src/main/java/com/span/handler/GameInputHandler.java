@@ -1,17 +1,17 @@
-package com.span.controller;
+package com.span.handler;
 
 
 import com.span.model.LeagueTable;
 import com.span.reader.FileInputReader;
 import com.span.reader.StandardInputReader;
-import com.span.service.GameResultProcessor;
+import com.span.processor.GameResultProcessor;
 
-public class GameInputController {
+public class GameInputHandler {
 
     private FileInputReader fileInputReader;
     private StandardInputReader standardInputReader;
 
-    public GameInputController() {
+    public GameInputHandler() {
         LeagueTable leagueTable = new LeagueTable();
         GameResultProcessor gameResultProcessor = new GameResultProcessor(leagueTable);
         standardInputReader = new StandardInputReader(gameResultProcessor);

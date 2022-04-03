@@ -1,9 +1,7 @@
 package Reader;
 
-import com.span.model.LeagueTable;
-import com.span.reader.FileInputReader;
 import com.span.reader.StandardInputReader;
-import com.span.service.GameResultProcessor;
+import com.span.processor.GameResultProcessor;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;

@@ -1,11 +1,11 @@
 package com.span;
 
 
-import com.span.controller.GameInputController;
+import com.span.handler.GameInputHandler;
 
 public class Main {
 
     public static void main(String[] args) {
-        new GameInputController().readInput();
+        new GameInputHandler().readInput();
     }
 }

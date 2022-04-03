@@ -1,6 +1,6 @@
 package com.span.reader;
 
-import com.span.service.GameResultProcessor;
+import com.span.processor.GameResultProcessor;
 
 import java.io.File;
 import java.io.FileNotFoundException;

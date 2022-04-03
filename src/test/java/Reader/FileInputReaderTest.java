@@ -1,18 +1,14 @@
 package Reader;
 
-import com.span.model.LeagueTable;
 import com.span.reader.FileInputReader;
-import com.span.reader.StandardInputReader;
-import com.span.service.GameResultProcessor;
+import com.span.processor.GameResultProcessor;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Mock;
 
 import java.util.List;
 
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 
 public class FileInputReaderTest {
