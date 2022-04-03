@@ -19,19 +19,11 @@ public class GameInputController {
     }
 
     public void readInput() {
-        int inputOption = Integer.parseInt(standardInputReader.readInputOption());
+        int inputOption = standardInputReader.readInputOption();
 
-        switch (inputOption) {
-            case 1 :
-                fileInputReader.readFile(fileInputReader.getFileName());
-            case 2 :
-                int numberOfLines = Integer.parseInt(standardInputReader.readNumberOfLines());
-                System.out.println("Enter matches :");
-                while (numberOfLines >= 1) {
-                    standardInputReader.readInputGames(numberOfLines);
-                    numberOfLines--;
-                }
-        }
+        if(inputOption == 1)
+            fileInputReader.readFile(fileInputReader.getFileName());
+        if(inputOption == 2)
+            standardInputReader.readInputGames();
     }
-
 }

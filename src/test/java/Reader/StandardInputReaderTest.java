@@ -18,20 +18,35 @@ public class StandardInputReaderTest {
 
     private StandardInputReader inTestStandardInputReader;
 
-    private LeagueTable leagueTable;
-    private GameResultProcessor gameResultProcessor = new GameResultProcessor(leagueTable);
+    private GameResultProcessor gameResultProcessor;
+    private Scanner scanner;
+
 
 
     @Before
     public void setUp() {
-        leagueTable = mock(LeagueTable.class);
+        scanner = mock(Scanner.class);
         gameResultProcessor = mock(GameResultProcessor.class);
         inTestStandardInputReader = new StandardInputReader(gameResultProcessor);
     }
 
     @Test
     public void mustReadInputGames() {
-        inTestStandardInputReader.readInputGames(5);
+        String input = "b 9, k 7\n" +
+                "h 8, o 8\n" +
+                "j 5, k 5\n" +
+                "h 4, i 2\n" +
+                "b 9, k 7\n" +
+                "n 8, o 8\n" +
+                "j 5, k 5\n" +
+                "h 4, p 2\n" +
+                "b 9, k 7\n" +
+                "h 8, z 8\n" +
+                "j 5, k 5\n" +
+                "h 4, u 2";
+
+       when(scanner.nextLine()).thenReturn(input);
+       inTestStandardInputReader.readInputGames();
 
 
 

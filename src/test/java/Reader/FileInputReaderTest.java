@@ -19,13 +19,11 @@ public class FileInputReaderTest {
 
     private FileInputReader fileInputReaderTest;
 
-    private LeagueTable leagueTable;
-    private GameResultProcessor gameResultProcessor = new GameResultProcessor(leagueTable);
+    private GameResultProcessor gameResultProcessor;
 
 
     @Before
     public void setUp() {
-        leagueTable = mock(LeagueTable.class);
         gameResultProcessor = mock(GameResultProcessor.class);
         fileInputReaderTest = new FileInputReader(gameResultProcessor);
     }

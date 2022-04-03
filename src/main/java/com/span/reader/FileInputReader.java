@@ -35,7 +35,7 @@ public class FileInputReader {
 
     public String getFileName() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter file name :");
+        System.out.println("Enter file path :");
         return scanner.nextLine();
     }
 }

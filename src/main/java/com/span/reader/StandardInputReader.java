@@ -14,25 +14,22 @@ public class StandardInputReader {
         scanner = new Scanner(System.in);
     }
 
-    public void readInputGames(int numberOfLines) {
-        String data = scanner.nextLine();
-        gameResultProcessor.process(data.substring(
-                0, data.indexOf(",")),
-                data.substring(data.indexOf(",") + 2)
-        );
+    public void readInputGames() {
+        System.out.println("Enter matches :");
+        String line = scanner.nextLine();
+        do {
+            gameResultProcessor.process(line.substring(
+                    0, line.indexOf(",")),
+                    line.substring(line.indexOf(",") + 2)
+            );
+            line = scanner.nextLine();
+        } while (!line.equals(""));
 
-        if(numberOfLines <= 0) {
-            gameResultProcessor.getTableResults();
-        }
+        gameResultProcessor.getTableResults();
     }
 
-    public String readInputOption() {
+    public int readInputOption() {
         System.out.println("Hi, would you like to input data using a file(1) or standard-input(2) ? \n(reply 1 or 2)");
-        return scanner.nextLine();
-    }
-
-    public String readNumberOfLines() {
-        System.out.println("Enter number of lines :");
-        return scanner.nextLine();
+        return Integer.parseInt(scanner.nextLine());
     }
 }
